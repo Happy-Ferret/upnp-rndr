@@ -1,5 +1,5 @@
 {
-  "name": "upnp-mediarenderer-client",
+  "name": "upnp-rndr",
   "version": "1.2.2",
   "description": "Another UPnP/DLNA MediaRenderer client",
   "author": "Svetlana Linuxenko",
