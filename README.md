@@ -1,10 +1,8 @@
-upnp-rndr
-=========================
 ### An UPnP/DLNA MediaRenderer client
 
-Customized version of the [upnp-mediarenderer-client](https://github.com/thibauts/node-upnp-mediarenderer-client).<br />
-The main reason for custom repo is customizing and fixing main package avoiding <br />
-different explanation steps which take loong time. Just push and use solution.
+> Customized version of the [upnp-mediarenderer-client](https://github.com/thibauts/node-upnp-mediarenderer-client).<br />
+> The main reason for custom repo is customizing and fixing main package avoiding <br />
+> different explanation steps which take loong time. Just push and use solution.
 
 This module allows you to control an UPnP/DLNA MediaRenderer directly (usually your TV set). It implements load, play, pause, stop and seek commands.
 
