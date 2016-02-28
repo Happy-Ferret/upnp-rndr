@@ -1,0 +1,971 @@
+INFO  [2016-01-27 18:00:51.682739 | main] gmediarender 0.0.7-git log started [ gmediarender 0.0.7-git (libupnp-1.6.19+git20141001; glib-2.45.2; gstreamer-1.4.5) ]
+INFO  [2016-01-27 18:00:51.682796 | output] Using output module: gst (GStreamer multimedia framework)
+INFO  [2016-01-27 18:00:51.685181 | connmgr] Registering support for 'video/quicktime'
+INFO  [2016-01-27 18:00:51.685196 | connmgr] Registering support for 'video/mj2'
+INFO  [2016-01-27 18:00:51.685200 | connmgr] Registering support for 'audio/x-m4a'
+INFO  [2016-01-27 18:00:51.685204 | connmgr] Registering support for 'audio/m4a'
+INFO  [2016-01-27 18:00:51.685207 | connmgr] Registering support for 'audio/mp4'
+INFO  [2016-01-27 18:00:51.685210 | connmgr] Registering support for 'application/x-3gp'
+INFO  [2016-01-27 18:00:51.685214 | connmgr] Registering support for 'audio/*'
+INFO  [2016-01-27 18:00:51.685290 | connmgr] Registering support for 'application/x-rtp'
+INFO  [2016-01-27 18:00:51.685485 | connmgr] Registering support for 'audio/x-raw'
+INFO  [2016-01-27 18:00:51.685495 | connmgr] Registering support for 'audio/mpeg'
+INFO  [2016-01-27 18:00:51.685500 | connmgr] Registering support for 'audio/x-mpeg'
+INFO  [2016-01-27 18:00:51.685505 | connmgr] Registering support for 'audio/x-scpls'
+INFO  [2016-01-27 18:00:51.685509 | connmgr] Registering support for 'audio/L16;rate=44100;channels=2'
+INFO  [2016-01-27 18:00:51.685514 | connmgr] Registering support for 'audio/x-adpcm'
+INFO  [2016-01-27 18:00:51.685517 | connmgr] Registering support for 'audio/x-alaw'
+INFO  [2016-01-27 18:00:51.685521 | connmgr] Registering support for 'audio/x-mulaw'
+INFO  [2016-01-27 18:00:51.685524 | connmgr] Registering support for 'audio/AMR'
+INFO  [2016-01-27 18:00:51.685528 | connmgr] Registering support for 'audio/AMR-WB'
+INFO  [2016-01-27 18:00:51.685531 | connmgr] Registering support for 'audio/x-alac'
+INFO  [2016-01-27 18:00:51.685535 | connmgr] Registering support for 'audio/alac'
+INFO  [2016-01-27 18:00:51.685539 | connmgr] Registering support for 'video/x-raw'
+INFO  [2016-01-27 18:00:51.685543 | connmgr] Registering support for 'video/mpeg'
+INFO  [2016-01-27 18:00:51.685547 | connmgr] Registering support for 'video/x-divx'
+INFO  [2016-01-27 18:00:51.685550 | connmgr] Registering support for 'video/x-h263'
+INFO  [2016-01-27 18:00:51.685554 | connmgr] Registering support for 'video/x-h264'
+INFO  [2016-01-27 18:00:51.685557 | connmgr] Registering support for 'video/x-svq'
+INFO  [2016-01-27 18:00:51.685561 | connmgr] Registering support for 'video/x-dv'
+INFO  [2016-01-27 18:00:51.685565 | connmgr] Registering support for 'image/jpeg'
+INFO  [2016-01-27 18:00:51.685568 | connmgr] Registering support for 'video/x-vp8'
+INFO  [2016-01-27 18:00:51.685572 | connmgr] Registering support for 'video/x-dirac'
+INFO  [2016-01-27 18:00:51.685576 | connmgr] Registering support for 'video/x-qt-part'
+INFO  [2016-01-27 18:00:51.685580 | connmgr] Registering support for 'text/x-raw'
+INFO  [2016-01-27 18:00:51.685697 | connmgr] Registering support for 'audio/x-ac3'
+INFO  [2016-01-27 18:00:51.685707 | connmgr] Registering support for 'video/x-mp4-part'
+INFO  [2016-01-27 18:00:51.685953 | connmgr] Registering support for 'image/x-j2c'
+INFO  [2016-01-27 18:00:51.685958 | connmgr] Registering support for 'image/x-jpc'
+INFO  [2016-01-27 18:00:51.717812 | connmgr] Registering support for 'video/x-theora'
+INFO  [2016-01-27 18:00:51.769026 | connmgr] Registering support for 'audio/x-flac'
+INFO  [2016-01-27 18:00:51.769760 | connmgr] Registering support for 'application/x-apetag'
+INFO  [2016-01-27 18:00:51.770975 | connmgr] Registering support for 'audio/x-wavpack'
+INFO  [2016-01-27 18:00:51.771606 | connmgr] Registering support for 'video/x-cdxa'
+INFO  [2016-01-27 18:00:51.771732 | connmgr] Registering support for 'application/x-gdp'
+INFO  [2016-01-27 18:00:51.772351 | connmgr] Registering support for 'application/vnd.ms-sstr+xml'
+INFO  [2016-01-27 18:00:51.772937 | connmgr] Registering support for 'application/x-hls'
+INFO  [2016-01-27 18:00:51.773723 | connmgr] Registering support for 'audio/x-aiff'
+INFO  [2016-01-27 18:00:51.773729 | connmgr] Registering support for 'audio/aiff'
+INFO  [2016-01-27 18:00:51.774064 | connmgr] Registering support for 'video/mpegts'
+INFO  [2016-01-27 18:00:51.777632 | connmgr] Registering support for 'application/ogg'
+INFO  [2016-01-27 18:00:51.777641 | connmgr] Registering support for 'audio/ogg'
+INFO  [2016-01-27 18:00:51.777644 | connmgr] Registering support for 'video/ogg'
+INFO  [2016-01-27 18:00:51.777645 | connmgr] Registering support for 'application/kate'
+INFO  [2016-01-27 18:00:51.777689 | connmgr] Registering support for 'application/x-ogm-video'
+INFO  [2016-01-27 18:00:51.777693 | connmgr] Registering support for 'video/x-smoke'
+INFO  [2016-01-27 18:00:51.777695 | connmgr] Registering support for 'video/x-daala'
+INFO  [2016-01-27 18:00:51.777697 | connmgr] Registering support for 'audio/x-vorbis'
+INFO  [2016-01-27 18:00:51.777699 | connmgr] Registering support for 'audio/x-speex'
+INFO  [2016-01-27 18:00:51.777701 | connmgr] Registering support for 'audio/x-celt'
+INFO  [2016-01-27 18:00:51.777703 | connmgr] Registering support for 'application/x-ogm-audio'
+INFO  [2016-01-27 18:00:51.777706 | connmgr] Registering support for 'audio/x-opus'
+INFO  [2016-01-27 18:00:51.777708 | connmgr] Registering support for 'text/x-cmml'
+INFO  [2016-01-27 18:00:51.777709 | connmgr] Registering support for 'subtitle/x-kate'
+INFO  [2016-01-27 18:00:51.777711 | connmgr] Registering support for 'application/x-kate'
+INFO  [2016-01-27 18:00:51.777949 | connmgr] Registering support for 'application/x-ogm-text'
+INFO  [2016-01-27 18:00:51.777987 | connmgr] Registering support for 'application/x-ogg-avi'
+INFO  [2016-01-27 18:00:51.779579 | connmgr] Registering support for 'audio/x-dts'
+INFO  [2016-01-27 18:00:51.779586 | connmgr] Registering support for 'audio/x-private1-dts'
+INFO  [2016-01-27 18:00:51.779859 | connmgr] Registering support for 'audio/x-wav'
+INFO  [2016-01-27 18:00:51.780565 | connmgr] Registering support for 'application/x-subtitle'
+INFO  [2016-01-27 18:00:51.780572 | connmgr] Registering support for 'application/x-subtitle-sami'
+INFO  [2016-01-27 18:00:51.780574 | connmgr] Registering support for 'application/x-subtitle-tmplayer'
+INFO  [2016-01-27 18:00:51.780576 | connmgr] Registering support for 'application/x-subtitle-mpl2'
+INFO  [2016-01-27 18:00:51.780578 | connmgr] Registering support for 'application/x-subtitle-dks'
+INFO  [2016-01-27 18:00:51.780580 | connmgr] Registering support for 'application/x-subtitle-qttext'
+INFO  [2016-01-27 18:00:51.780582 | connmgr] Registering support for 'application/x-subtitle-lrc'
+INFO  [2016-01-27 18:00:51.780607 | connmgr] Registering support for 'application/x-ssa'
+INFO  [2016-01-27 18:00:51.780610 | connmgr] Registering support for 'application/x-ass'
+INFO  [2016-01-27 18:00:51.782228 | connmgr] Registering support for 'video/x-bayer'
+INFO  [2016-01-27 18:00:51.782236 | connmgr] Registering support for 'image/png'
+INFO  [2016-01-27 18:00:51.782443 | connmgr] Registering support for 'audio/ac3'
+INFO  [2016-01-27 18:00:51.782448 | connmgr] Registering support for 'audio/x-private1-ac3'
+INFO  [2016-01-27 18:00:51.782604 | connmgr] Registering support for 'audio/midi'
+INFO  [2016-01-27 18:00:51.782608 | connmgr] Registering support for 'audio/riff-midi'
+INFO  [2016-01-27 18:00:51.782759 | connmgr] Registering support for 'audio/x-siren'
+INFO  [2016-01-27 18:00:51.789481 | connmgr] Registering support for 'video/x-flv'
+INFO  [2016-01-27 18:00:51.790690 | connmgr] Registering support for 'application/octet-stream'
+INFO  [2016-01-27 18:00:51.791027 | connmgr] Registering support for 'video/webm'
+INFO  [2016-01-27 18:00:51.791031 | connmgr] Registering support for 'audio/webm'
+INFO  [2016-01-27 18:00:51.793506 | connmgr] Registering support for 'video/x-vmnc'
+INFO  [2016-01-27 18:00:51.794342 | connmgr] Registering support for 'application/x-id3'
+INFO  [2016-01-27 18:00:51.794570 | connmgr] Registering support for 'video/x-mimic'
+INFO  [2016-01-27 18:00:51.798719 | connmgr] Registering support for 'audio/x-mod'
+INFO  [2016-01-27 18:00:51.798727 | connmgr] Registering support for 'audio/x-xm'
+INFO  [2016-01-27 18:00:51.798731 | connmgr] Registering support for 'audio/x-it'
+INFO  [2016-01-27 18:00:51.798733 | connmgr] Registering support for 'audio/x-s3m'
+INFO  [2016-01-27 18:00:51.798735 | connmgr] Registering support for 'audio/x-stm'
+INFO  [2016-01-27 18:00:51.799471 | connmgr] Registering support for 'audio/x-ay'
+INFO  [2016-01-27 18:00:51.799478 | connmgr] Registering support for 'audio/x-gbs'
+INFO  [2016-01-27 18:00:51.799481 | connmgr] Registering support for 'audio/x-gym'
+INFO  [2016-01-27 18:00:51.799483 | connmgr] Registering support for 'audio/x-hes'
+INFO  [2016-01-27 18:00:51.799485 | connmgr] Registering support for 'audio/x-kss'
+INFO  [2016-01-27 18:00:51.799487 | connmgr] Registering support for 'audio/x-nsf'
+INFO  [2016-01-27 18:00:51.799490 | connmgr] Registering support for 'audio/x-sap'
+INFO  [2016-01-27 18:00:51.799492 | connmgr] Registering support for 'audio/x-spc'
+INFO  [2016-01-27 18:00:51.799494 | connmgr] Registering support for 'audio/x-vgm'
+INFO  [2016-01-27 18:00:51.800491 | connmgr] Registering support for 'image/svg+xml'
+INFO  [2016-01-27 18:00:51.800498 | connmgr] Registering support for 'image/svg'
+INFO  [2016-01-27 18:00:51.800500 | connmgr] Registering support for 'text/plain'
+INFO  [2016-01-27 18:00:51.800702 | connmgr] Registering support for 'video/x-fli'
+INFO  [2016-01-27 18:00:51.805173 | connmgr] Registering support for 'image/jp2'
+INFO  [2016-01-27 18:00:51.805368 | connmgr] Registering support for 'application/x-icy'
+INFO  [2016-01-27 18:00:51.805914 | connmgr] Registering support for 'application/vnd.rn-realmedia'
+INFO  [2016-01-27 18:00:51.805940 | connmgr] Registering support for 'application/x-pn-realaudio'
+INFO  [2016-01-27 18:00:51.805971 | connmgr] Registering support for 'application/x-rdt'
+INFO  [2016-01-27 18:00:51.806018 | connmgr] Registering support for 'application/x-rtcp'
+INFO  [2016-01-27 18:00:51.806249 | connmgr] Registering support for 'application/x-yuv4mpeg'
+INFO  [2016-01-27 18:00:51.806878 | connmgr] Registering support for 'video/x-flash-video'
+INFO  [2016-01-27 18:00:51.806884 | connmgr] Registering support for 'video/x-flash-screen'
+INFO  [2016-01-27 18:00:51.806887 | connmgr] Registering support for 'video/x-vp6-flash'
+INFO  [2016-01-27 18:00:51.806889 | connmgr] Registering support for 'video/x-vp6-alpha'
+INFO  [2016-01-27 18:00:51.806897 | connmgr] Registering support for 'audio/x-nellymoser'
+INFO  [2016-01-27 18:00:51.807354 | connmgr] Registering support for 'audio/x-bv'
+INFO  [2016-01-27 18:00:51.807515 | connmgr] Registering support for 'audio/x-iLBC'
+INFO  [2016-01-27 18:00:51.807585 | connmgr] Registering support for 'audio/G722'
+INFO  [2016-01-27 18:00:51.807629 | connmgr] Registering support for 'audio/G723'
+INFO  [2016-01-27 18:00:51.807726 | connmgr] Registering support for 'audio/G729'
+INFO  [2016-01-27 18:00:51.807770 | connmgr] Registering support for 'audio/x-gsm'
+INFO  [2016-01-27 18:00:51.808042 | connmgr] Registering support for 'video/x-h261'
+INFO  [2016-01-27 18:00:51.808305 | connmgr] Registering support for 'video/x-jpeg'
+INFO  [2016-01-27 18:00:51.808350 | connmgr] Registering support for 'meta/x-klv'
+INFO  [2016-01-27 18:00:51.808762 | connmgr] Registering support for 'audio/x-sbc'
+INFO  [2016-01-27 18:00:51.809064 | connmgr] Registering support for 'application/x-srtp'
+INFO  [2016-01-27 18:00:51.809067 | connmgr] Registering support for 'application/x-srtcp'
+INFO  [2016-01-27 18:00:51.809104 | connmgr] Registering support for 'application/x-rtp-stream'
+INFO  [2016-01-27 18:00:51.809107 | connmgr] Registering support for 'application/x-rtcp-stream'
+INFO  [2016-01-27 18:00:51.809110 | connmgr] Registering support for 'application/x-srtp-stream'
+INFO  [2016-01-27 18:00:51.809112 | connmgr] Registering support for 'application/x-srtcp-stream'
+INFO  [2016-01-27 18:00:51.809336 | connmgr] Registering support for 'audio/x-private1-lpcm'
+INFO  [2016-01-27 18:00:51.809340 | connmgr] Registering support for 'audio/x-lpcm'
+INFO  [2016-01-27 18:00:51.852411 | connmgr] Registering support for 'application/x-dtls'
+INFO  [2016-01-27 18:00:51.857872 | connmgr] Registering support for 'audio/x-eac3'
+INFO  [2016-01-27 18:00:51.946343 | connmgr] Registering support for 'video/x-pwc1'
+INFO  [2016-01-27 18:00:51.946353 | connmgr] Registering support for 'video/x-pwc2'
+INFO  [2016-01-27 18:00:51.946357 | connmgr] Registering support for 'video/x-sonix'
+INFO  [2016-01-27 18:00:51.947544 | connmgr] Registering support for 'audio/x-wma'
+INFO  [2016-01-27 18:00:51.947555 | connmgr] Registering support for 'video/x-wmv'
+INFO  [2016-01-27 18:00:51.947584 | connmgr] Registering support for 'video/x-ms-asf'
+INFO  [2016-01-27 18:00:51.978593 | connmgr] Registering support for 'audio/x-midi-event'
+INFO  [2016-01-27 18:00:51.979027 | connmgr] Registering support for 'audio/ms-gsm'
+INFO  [2016-01-27 18:00:51.980116 | connmgr] Registering support for 'subpicture/x-dvd'
+INFO  [2016-01-27 18:00:51.981681 | connmgr] Registering support for 'subpicture/x-pgs'
+INFO  [2016-01-27 18:00:51.983046 | connmgr] Registering support for 'audio/x-amr-nb-sh'
+INFO  [2016-01-27 18:00:51.983055 | connmgr] Registering support for 'audio/x-amr-wb-sh'
+INFO  [2016-01-27 18:00:51.983693 | connmgr] Registering support for 'video/x-h265'
+INFO  [2016-01-27 18:00:51.983967 | connmgr] Registering support for 'application/x-bzip'
+INFO  [2016-01-27 18:00:51.984781 | connmgr] Registering support for 'image/webp'
+INFO  [2016-01-27 18:00:51.985232 | connmgr] Registering support for 'video/x-msvideo'
+INFO  [2016-01-27 18:00:51.985340 | connmgr] Registering support for 'video/x-msmpeg'
+INFO  [2016-01-27 18:00:51.985349 | connmgr] Registering support for 'video/x-huffyuv'
+INFO  [2016-01-27 18:00:51.985383 | connmgr] Registering support for 'application/x-subtitle-avi'
+INFO  [2016-01-27 18:00:51.986419 | connmgr] Registering support for 'image/x-portable-bitmap'
+INFO  [2016-01-27 18:00:51.986427 | connmgr] Registering support for 'image/x-portable-graymap'
+INFO  [2016-01-27 18:00:51.986430 | connmgr] Registering support for 'image/x-portable-pixmap'
+INFO  [2016-01-27 18:00:51.986432 | connmgr] Registering support for 'image/x-portable-anymap'
+INFO  [2016-01-27 18:00:51.987918 | connmgr] Registering support for 'audio/x-au'
+INFO  [2016-01-27 18:00:51.990148 | connmgr] Registering support for 'application/sdp'
+INFO  [2016-01-27 18:00:51.991341 | connmgr] Registering support for 'video/x-vp9'
+INFO  [2016-01-27 18:00:51.992405 | connmgr] Registering support for 'audio/x-ircam'
+INFO  [2016-01-27 18:00:51.992413 | connmgr] Registering support for 'audio/x-nist'
+INFO  [2016-01-27 18:00:51.992417 | connmgr] Registering support for 'audio/x-paris'
+INFO  [2016-01-27 18:00:51.992419 | connmgr] Registering support for 'audio/x-rf64'
+INFO  [2016-01-27 18:00:51.992422 | connmgr] Registering support for 'audio/x-sds'
+INFO  [2016-01-27 18:00:51.992425 | connmgr] Registering support for 'audio/x-svx'
+INFO  [2016-01-27 18:00:51.992427 | connmgr] Registering support for 'audio/x-voc'
+INFO  [2016-01-27 18:00:51.992430 | connmgr] Registering support for 'audio/x-w64'
+INFO  [2016-01-27 18:00:51.992433 | connmgr] Registering support for 'audio/x-xi'
+INFO  [2016-01-27 18:00:51.993082 | connmgr] Registering support for 'application/dash+xml'
+INFO  [2016-01-27 18:00:51.994219 | connmgr] Registering support for 'audio/x-sid'
+INFO  [2016-01-27 18:00:51.994752 | connmgr] Registering support for 'image/gif'
+INFO  [2016-01-27 18:00:51.994758 | connmgr] Registering support for 'image/x-icon'
+INFO  [2016-01-27 18:00:51.994761 | connmgr] Registering support for 'application/x-navi-animation'
+INFO  [2016-01-27 18:00:51.994764 | connmgr] Registering support for 'image/x-cmu-raster'
+INFO  [2016-01-27 18:00:51.994766 | connmgr] Registering support for 'image/x-sun-raster'
+INFO  [2016-01-27 18:00:51.994769 | connmgr] Registering support for 'image/x-pixmap'
+INFO  [2016-01-27 18:00:51.994771 | connmgr] Registering support for 'image/tiff'
+INFO  [2016-01-27 18:00:51.994775 | connmgr] Registering support for 'image/bmp'
+INFO  [2016-01-27 18:00:51.994778 | connmgr] Registering support for 'image/x-bmp'
+INFO  [2016-01-27 18:00:51.994780 | connmgr] Registering support for 'image/x-MS-bmp'
+INFO  [2016-01-27 18:00:51.994784 | connmgr] Registering support for 'image/vnd.wap.wbmp'
+INFO  [2016-01-27 18:00:51.994787 | connmgr] Registering support for 'image/x-bitmap'
+INFO  [2016-01-27 18:00:51.994789 | connmgr] Registering support for 'image/x-tga'
+INFO  [2016-01-27 18:00:51.994792 | connmgr] Registering support for 'image/x-pcx'
+INFO  [2016-01-27 18:00:51.996895 | connmgr] Registering support for 'subpicture/x-dvb'
+INFO  [2016-01-27 18:00:52.012699 | connmgr] Registering support for 'unknown/unknown'
+INFO  [2016-01-27 18:00:52.012784 | connmgr] Registering support for 'audio/x-smpte-302m'
+INFO  [2016-01-27 18:00:52.013078 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-ape'
+INFO  [2016-01-27 18:00:52.013110 | connmgr] Registering support for 'audio/x-vnd.sony.atrac1'
+INFO  [2016-01-27 18:00:52.013136 | connmgr] Registering support for 'audio/x-vnd.sony.atrac3'
+INFO  [2016-01-27 18:00:52.013297 | connmgr] Registering support for 'audio/x-pn-realaudio'
+INFO  [2016-01-27 18:00:52.013819 | connmgr] Registering support for 'audio/x-imc'
+INFO  [2016-01-27 18:00:52.013850 | connmgr] Registering support for 'audio/x-mace'
+INFO  [2016-01-27 18:00:52.013933 | connmgr] Registering support for 'audio/x-mlp'
+INFO  [2016-01-27 18:00:52.014118 | connmgr] Registering support for 'audio/x-gst-av-mp3adu'
+INFO  [2016-01-27 18:00:52.014183 | connmgr] Registering support for 'audio/x-gst-av-mp3on4'
+INFO  [2016-01-27 18:00:52.014241 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-musepack'
+INFO  [2016-01-27 18:00:52.014404 | connmgr] Registering support for 'audio/qcelp'
+INFO  [2016-01-27 18:00:52.014462 | connmgr] Registering support for 'audio/x-qdm2'
+INFO  [2016-01-27 18:00:52.014598 | connmgr] Registering support for 'audio/x-shorten'
+INFO  [2016-01-27 18:00:52.014626 | connmgr] Registering support for 'audio/x-sipro'
+INFO  [2016-01-27 18:00:52.014725 | connmgr] Registering support for 'audio/x-true-hd'
+INFO  [2016-01-27 18:00:52.014755 | connmgr] Registering support for 'audio/x-truespeech'
+INFO  [2016-01-27 18:00:52.014783 | connmgr] Registering support for 'audio/x-tta'
+INFO  [2016-01-27 18:00:52.014818 | connmgr] Registering support for 'audio/x-twin-vq'
+INFO  [2016-01-27 18:00:52.014849 | connmgr] Registering support for 'audio/x-gst-av-vmdaudio'
+INFO  [2016-01-27 18:00:52.015470 | connmgr] Registering support for 'audio/x-wms'
+INFO  [2016-01-27 18:00:52.015506 | connmgr] Registering support for 'audio/x-gst-av-ws_snd1'
+INFO  [2016-01-27 18:00:52.015650 | connmgr] Registering support for 'audio/x-dpcm'
+INFO  [2016-01-27 18:00:52.016640 | connmgr] Registering support for 'video/x-aasc'
+INFO  [2016-01-27 18:00:52.016696 | connmgr] Registering support for 'video/x-apple-intermediate-codec'
+INFO  [2016-01-27 18:00:52.016799 | connmgr] Registering support for 'video/x-amv'
+INFO  [2016-01-27 18:00:52.016990 | connmgr] Registering support for 'video/x-asus'
+INFO  [2016-01-27 18:00:52.017269 | connmgr] Registering support for 'video/x-gst-av-avs'
+INFO  [2016-01-27 18:00:52.017796 | connmgr] Registering support for 'video/x-cavs'
+INFO  [2016-01-27 18:00:52.017994 | connmgr] Registering support for 'video/x-cinepak'
+INFO  [2016-01-27 18:00:52.018043 | connmgr] Registering support for 'video/x-cirrus-logic-accupak'
+INFO  [2016-01-27 18:00:52.018184 | connmgr] Registering support for 'video/x-camstudio'
+INFO  [2016-01-27 18:00:52.018237 | connmgr] Registering support for 'video/x-compressed-yuv'
+INFO  [2016-01-27 18:00:52.018386 | connmgr] Registering support for 'video/x-dnxhd'
+INFO  [2016-01-27 18:00:52.018912 | connmgr] Registering support for 'video/x-gst-av-8bps'
+INFO  [2016-01-27 18:00:52.019150 | connmgr] Registering support for 'video/x-ffv'
+INFO  [2016-01-27 18:00:52.019400 | connmgr] Registering support for 'video/x-gst-av-ffvhuff'
+INFO  [2016-01-27 18:00:52.019557 | connmgr] Registering support for 'video/x-gst-av-flic'
+INFO  [2016-01-27 18:00:52.019637 | connmgr] Registering support for 'video/x-4xm'
+INFO  [2016-01-27 18:00:52.019686 | connmgr] Registering support for 'video/x-fraps'
+INFO  [2016-01-27 18:00:52.019893 | connmgr] Registering support for 'video/x-intel-h263'
+INFO  [2016-01-27 18:00:52.020993 | connmgr] Registering support for 'video/x-gst-av-idcinvideo'
+INFO  [2016-01-27 18:00:52.021103 | connmgr] Registering support for 'video/x-indeo'
+INFO  [2016-01-27 18:00:52.021298 | connmgr] Registering support for 'video/x-gst-av-interplayvideo'
+INFO  [2016-01-27 18:00:52.021569 | connmgr] Registering support for 'video/x-kmvc'
+INFO  [2016-01-27 18:00:52.021621 | connmgr] Registering support for 'video/x-lagarith'
+INFO  [2016-01-27 18:00:52.021670 | connmgr] Registering support for 'video/x-loco'
+INFO  [2016-01-27 18:00:52.021727 | connmgr] Registering support for 'video/x-gst-av-mdec'
+INFO  [2016-01-27 18:00:52.021884 | connmgr] Registering support for 'video/x-mjpeg-b'
+INFO  [2016-01-27 18:00:52.021937 | connmgr] Registering support for 'video/x-gst-av-mmvideo'
+INFO  [2016-01-27 18:00:52.022336 | connmgr] Registering support for 'video/x-rle'
+INFO  [2016-01-27 18:00:52.022600 | connmgr] Registering support for 'video/x-msvideocodec'
+INFO  [2016-01-27 18:00:52.022653 | connmgr] Registering support for 'video/x-mszh'
+INFO  [2016-01-27 18:00:52.022894 | connmgr] Registering support for 'video/x-nuv'
+INFO  [2016-01-27 18:00:52.023039 | connmgr] Registering support for 'image/pbm'
+INFO  [2016-01-27 18:00:52.023190 | connmgr] Registering support for 'video/x-gst-av-pgmyuv'
+INFO  [2016-01-27 18:00:52.023332 | connmgr] Registering support for 'image/ppm'
+INFO  [2016-01-27 18:00:52.023384 | connmgr] Registering support for 'video/x-prores'
+INFO  [2016-01-27 18:00:52.023533 | connmgr] Registering support for 'video/x-qdrw'
+INFO  [2016-01-27 18:00:52.023589 | connmgr] Registering support for 'video/x-gst-av-qpeg'
+INFO  [2016-01-27 18:00:52.023782 | connmgr] Registering support for 'video/x-gst-av-roqvideo'
+INFO  [2016-01-27 18:00:52.023834 | connmgr] Registering support for 'video/x-apple-video'
+INFO  [2016-01-27 18:00:52.023870 | connmgr] Registering support for 'video/x-pn-realvideo'
+INFO  [2016-01-27 18:00:52.024067 | connmgr] Registering support for 'image/x-sgi'
+INFO  [2016-01-27 18:00:52.024217 | connmgr] Registering support for 'video/x-smc'
+INFO  [2016-01-27 18:00:52.024530 | connmgr] Registering support for 'video/sp5x'
+INFO  [2016-01-27 18:00:52.025077 | connmgr] Registering support for 'video/x-truemotion'
+INFO  [2016-01-27 18:00:52.025179 | connmgr] Registering support for 'video/x-camtasia'
+INFO  [2016-01-27 18:00:52.025235 | connmgr] Registering support for 'video/x-tscc'
+INFO  [2016-01-27 18:00:52.025338 | connmgr] Registering support for 'video/x-ultimotion'
+INFO  [2016-01-27 18:00:52.025790 | connmgr] Registering support for 'video/x-ati-vcr'
+INFO  [2016-01-27 18:00:52.025864 | connmgr] Registering support for 'video/x-gst-av-vmdvideo'
+INFO  [2016-01-27 18:00:52.025980 | connmgr] Registering support for 'video/x-vp3'
+INFO  [2016-01-27 18:00:52.026032 | connmgr] Registering support for 'video/x-vp5'
+INFO  [2016-01-27 18:00:52.026084 | connmgr] Registering support for 'video/x-vp6'
+INFO  [2016-01-27 18:00:52.026412 | connmgr] Registering support for 'video/x-gst-av-vqavideo'
+INFO  [2016-01-27 18:00:52.026638 | connmgr] Registering support for 'video/x-gst-av-wnv1'
+INFO  [2016-01-27 18:00:52.026692 | connmgr] Registering support for 'video/x-xan'
+INFO  [2016-01-27 18:00:52.026869 | connmgr] Registering support for 'video/x-gst-av-xl'
+INFO  [2016-01-27 18:00:52.027195 | connmgr] Registering support for 'video/x-zlib'
+INFO  [2016-01-27 18:00:52.027246 | connmgr] Registering support for 'video/x-zmbv'
+INFO  [2016-01-27 18:00:52.027433 | connmgr] Registering support for 'application/x-ape'
+INFO  [2016-01-27 18:00:52.027456 | connmgr] Registering support for 'application/x-gst-av-avs'
+INFO  [2016-01-27 18:00:52.027479 | connmgr] Registering support for 'application/x-gst-av-daud'
+INFO  [2016-01-27 18:00:52.027503 | connmgr] Registering support for 'application/x-gst-av-ea'
+INFO  [2016-01-27 18:00:52.027528 | connmgr] Registering support for 'application/x-gst-av-ffm'
+INFO  [2016-01-27 18:00:52.027593 | connmgr] Registering support for 'application/gxf'
+INFO  [2016-01-27 18:00:52.027615 | connmgr] Registering support for 'application/x-gst-av-idcin'
+INFO  [2016-01-27 18:00:52.027636 | connmgr] Registering support for 'application/x-gst-av-ipmovie'
+INFO  [2016-01-27 18:00:52.027660 | connmgr] Registering support for 'application/x-gst-av-mm'
+INFO  [2016-01-27 18:00:52.027687 | connmgr] Registering support for 'application/x-gst-av-mmf'
+INFO  [2016-01-27 18:00:52.027712 | connmgr] Registering support for 'audio/x-musepack'
+INFO  [2016-01-27 18:00:52.027753 | connmgr] Registering support for 'application/mxf'
+INFO  [2016-01-27 18:00:52.027775 | connmgr] Registering support for 'video/x-nsv'
+INFO  [2016-01-27 18:00:52.027797 | connmgr] Registering support for 'application/x-gst-av-nut'
+INFO  [2016-01-27 18:00:52.027828 | connmgr] Registering support for 'application/x-gst-av-nuv'
+INFO  [2016-01-27 18:00:52.027851 | connmgr] Registering support for 'video/x-pva'
+INFO  [2016-01-27 18:00:52.027872 | connmgr] Registering support for 'application/x-gst-av-film_cpk'
+INFO  [2016-01-27 18:00:52.027893 | connmgr] Registering support for 'application/x-gst-av-smk'
+INFO  [2016-01-27 18:00:52.027917 | connmgr] Registering support for 'application/x-gst-av-sol'
+INFO  [2016-01-27 18:00:52.027939 | connmgr] Registering support for 'application/x-gst-av-psxstr'
+INFO  [2016-01-27 18:00:52.027961 | connmgr] Registering support for 'audio/x-ttafile'
+INFO  [2016-01-27 18:00:52.027985 | connmgr] Registering support for 'application/x-gst-av-vmd'
+INFO  [2016-01-27 18:00:52.028028 | connmgr] Registering support for 'application/x-gst-av-wc3movie'
+INFO  [2016-01-27 18:00:52.028052 | connmgr] Registering support for 'application/x-gst-av-wsaud'
+INFO  [2016-01-27 18:00:52.028075 | connmgr] Registering support for 'application/x-gst-av-wsvqa'
+INFO  [2016-01-27 18:00:52.035388 | connmgr] Registering support for 'image/x-exr'
+INFO  [2016-01-27 18:00:52.042686 | connmgr] Registering support for 'raw/x-pcap'
+INFO  [2016-01-27 18:00:52.043649 | connmgr] Registering support for 'audio/x-matroska'
+INFO  [2016-01-27 18:00:52.043659 | connmgr] Registering support for 'video/x-matroska'
+INFO  [2016-01-27 18:00:52.043664 | connmgr] Registering support for 'video/x-matroska-3d'
+INFO  [2016-01-27 18:00:52.044008 | connmgr] Registering support for 'application/x-usf'
+INFO  [2016-01-27 18:00:52.044015 | connmgr] Registering support for 'application/x-subtitle-unknown'
+INFO  [2016-01-27 18:00:52.045212 | connmgr] Registering support for 'multipart/x-mixed-replace'
+INFO  [2016-01-27 18:00:52.050730 | connmgr] Registering support for 'video/x-ivf'
+INFO  [2016-01-27 18:00:52.051077 | connmgr] Registering support for 'application/x-teletext'
+INFO  [2016-01-27 18:00:52.051186 | gstreamer] Set mute to off
+INFO  [2016-01-27 18:00:52.051220 | webserver] Provide /upnp/grender-64x64.png (image/png) from /usr/share/gmediarender/grender-64x64.png
+INFO  [2016-01-27 18:00:52.051238 | webserver] Provide /upnp/grender-128x128.png (image/png) from /usr/share/gmediarender/grender-128x128.png
+INFO  [2016-01-27 18:00:52.051523 | webserver] Provide /upnp/rendertransportSCPD.xml (text/xml) from buffer
+INFO  [2016-01-27 18:00:52.051597 | webserver] Provide /upnp/renderconnmgrSCPD.xml (text/xml) from buffer
+INFO  [2016-01-27 18:00:52.051804 | webserver] Provide /upnp/rendercontrolSCPD.xml (text/xml) from buffer
+INFO  [2016-01-27 18:00:52.102276 | upnp] Registered IP=192.168.10.54 port=49494
+INFO  [2016-01-27 18:00:52.177294 | webserver] Access /upnp/grender-128x128.png (image/png) len=24088
+INFO  [2016-01-27 18:00:52.177581 | webserver] Access /upnp/rendertransportSCPD.xml (text/xml) len=15697
+INFO  [2016-01-27 18:00:52.202843 | gstreamer] Query volume fraction: 1.000000
+INFO  [2016-01-27 18:00:52.202851 | control] Output inital volume is 1.000000; setting control variables accordingly.
+INFO  [2016-01-27 18:00:52.202854 | control] Setting volume-db to 0.00db == #100
+INFO  [2016-01-27 18:00:52.202884 | main] Ready for rendering.
+INFO  [2016-01-27 18:00:52.303301 | webserver] Access /upnp/renderconnmgrSCPD.xml (text/xml) len=4783
+INFO  [2016-01-27 18:00:52.317229 | webserver] Access /upnp/rendercontrolSCPD.xml (text/xml) len=13317
+INFO  [2016-01-27 18:00:52.710364 | webserver] Access /upnp/rendertransportSCPD.xml (text/xml) len=15697
+INFO  [2016-01-27 18:00:52.721243 | webserver] Access /upnp/renderconnmgrSCPD.xml (text/xml) len=4783
+INFO  [2016-01-27 18:00:52.726497 | webserver] Access /upnp/rendercontrolSCPD.xml (text/xml) len=13317
+INFO  [2016-01-27 18:00:56.198871 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg
+INFO  [2016-01-27 18:00:56.198888 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="6a8c8285eba77d6f88fd61bb9311" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-09-10-50-50.jpeg</dc:title>
+      <dc:date>2015-11-9</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="188554" resolution="720x1280">http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/6a8c8285eba77d6f88fd61bb9311.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:00:56.198901 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:00:56.198905 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg'
+INFO  [2016-01-27 18:00:56.198954 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;6a8c8285eba77d6f88fd61bb9311&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-09-10-50-50.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-9&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;188554&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/6a8c8285eba77d6f88fd61bb9311.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:00:56.789831 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:00:56.789852 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:00:56.789859 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:00:56.789864 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg
+INFO  [2016-01-27 18:00:56.789871 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="6a8c8285eba77d6f88fd61bb9311" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-09-10-50-50.jpeg</dc:title>
+      <dc:date>2015-11-9</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="188554" resolution="720x1280">http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/6a8c8285eba77d6f88fd61bb9311.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:00:56.789966 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;6a8c8285eba77d6f88fd61bb9311&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-09-10-50-50.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-9&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;188554&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/6a8c8285eba77d6f88fd61bb9311.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/6a8c8285eba77d6f88fd61bb9311.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:00:56.864871 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:00:56.885777 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:00:56.885790 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:00:56.885805 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:00:56.885809 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:00:56.885813 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:00:56.885816 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:00:56.885819 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:00:56.885823 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:00:56.885826 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:00:56.885840 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:00:57.203958 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:00:57.704188 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:00:58.204485 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:00:58.704700 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:00:59.204964 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:00:59.304630 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg
+INFO  [2016-01-27 18:00:59.304667 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="3b9deae5b6ce63bd4a6f8635215179d" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-04-15-41-32.jpeg</dc:title>
+      <dc:date>2015-11-4</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="174688" resolution="720x1280">http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/3b9deae5b6ce63bd4a6f8635215179d.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:00:59.304688 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:00:59.304700 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg'
+INFO  [2016-01-27 18:00:59.304858 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;3b9deae5b6ce63bd4a6f8635215179d&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-04-15-41-32.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-4&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;174688&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/3b9deae5b6ce63bd4a6f8635215179d.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:00:59.705255 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:00:59.873917 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:00:59.873956 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:00:59.874041 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:00:59.874058 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg
+INFO  [2016-01-27 18:00:59.874073 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="3b9deae5b6ce63bd4a6f8635215179d" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-04-15-41-32.jpeg</dc:title>
+      <dc:date>2015-11-4</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="174688" resolution="720x1280">http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/3b9deae5b6ce63bd4a6f8635215179d.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:00:59.874293 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;3b9deae5b6ce63bd4a6f8635215179d&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-04-15-41-32.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-4&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;174688&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/3b9deae5b6ce63bd4a6f8635215179d.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/3b9deae5b6ce63bd4a6f8635215179d.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:00:59.951257 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:00:59.985760 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:00:59.985772 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:00:59.985779 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:00:59.985782 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:00:59.985784 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:00:59.985786 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:00:59.985787 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:00:59.985789 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:00:59.985792 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:00:59.985808 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:00.205447 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:01:00.705602 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:01:01.205835 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:01.344995 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg
+INFO  [2016-01-27 18:01:01.345013 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="49fb71ff59903fd3ace6cb8a4fd835" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-03-16-46-14.jpeg</dc:title>
+      <dc:date>2015-11-3</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="180664" resolution="720x1280">http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/49fb71ff59903fd3ace6cb8a4fd835.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:01.345021 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:01:01.345026 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg'
+INFO  [2016-01-27 18:01:01.345090 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;49fb71ff59903fd3ace6cb8a4fd835&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-03-16-46-14.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-3&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;180664&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/49fb71ff59903fd3ace6cb8a4fd835.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:01.706014 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:01.920726 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:01:01.920739 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:01:01.920742 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:01:01.920745 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg
+INFO  [2016-01-27 18:01:01.920748 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="49fb71ff59903fd3ace6cb8a4fd835" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-11-03-16-46-14.jpeg</dc:title>
+      <dc:date>2015-11-3</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="180664" resolution="720x1280">http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/49fb71ff59903fd3ace6cb8a4fd835.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:01.920798 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;49fb71ff59903fd3ace6cb8a4fd835&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-11-03-16-46-14.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-11-3&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;180664&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/49fb71ff59903fd3ace6cb8a4fd835.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/49fb71ff59903fd3ace6cb8a4fd835.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:01:01.992089 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:01:02.018982 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:01:02.018996 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:01:02.019004 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:01:02.019008 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:01:02.019011 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:01:02.019013 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:01:02.019014 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:01:02.019016 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:01:02.019019 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:01:02.019031 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:02.206187 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:01:02.706466 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:02.821885 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg
+INFO  [2016-01-27 18:01:02.821922 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="e7d66f1565a4f38f24e2d49c341b4fa" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-10-29-14-14-35.jpeg</dc:title>
+      <dc:date>2015-10-29</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="131794" resolution="720x1280">http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/e7d66f1565a4f38f24e2d49c341b4fa.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:02.821948 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:01:02.821958 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg'
+INFO  [2016-01-27 18:01:02.822082 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;e7d66f1565a4f38f24e2d49c341b4fa&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-10-29-14-14-35.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-10-29&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;131794&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/e7d66f1565a4f38f24e2d49c341b4fa.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:03.206727 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:03.405427 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:01:03.405456 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:01:03.405466 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:01:03.405474 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg
+INFO  [2016-01-27 18:01:03.405483 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="e7d66f1565a4f38f24e2d49c341b4fa" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-10-29-14-14-35.jpeg</dc:title>
+      <dc:date>2015-10-29</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="131794" resolution="720x1280">http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/e7d66f1565a4f38f24e2d49c341b4fa.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:03.405626 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;e7d66f1565a4f38f24e2d49c341b4fa&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-10-29-14-14-35.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-10-29&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;131794&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/e7d66f1565a4f38f24e2d49c341b4fa.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/e7d66f1565a4f38f24e2d49c341b4fa.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:01:03.470858 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:01:03.502300 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:01:03.502313 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:01:03.502321 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:01:03.502325 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:01:03.502328 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:01:03.502331 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:01:03.502333 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:01:03.502336 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:01:03.502340 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:01:03.502352 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:03.706907 | gstreamer] Failed to get track duration.
+ERROR [2016-01-27 18:01:04.207165 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:04.582489 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg
+INFO  [2016-01-27 18:01:04.582526 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="a1225df6fad417ca0bf2cee78878721" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-14-08-52-20.jpeg</dc:title>
+      <dc:date>2015-09-14</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="505909" resolution="720x1280">http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/a1225df6fad417ca0bf2cee78878721.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:04.582551 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:01:04.582564 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg'
+INFO  [2016-01-27 18:01:04.582716 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;a1225df6fad417ca0bf2cee78878721&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-14-08-52-20.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-14&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;505909&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/a1225df6fad417ca0bf2cee78878721.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:04.707463 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:05.141530 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:01:05.141577 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:01:05.141597 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:01:05.141612 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg
+INFO  [2016-01-27 18:01:05.141630 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="a1225df6fad417ca0bf2cee78878721" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-14-08-52-20.jpeg</dc:title>
+      <dc:date>2015-09-14</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="505909" resolution="720x1280">http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/a1225df6fad417ca0bf2cee78878721.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:05.141938 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;a1225df6fad417ca0bf2cee78878721&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-14-08-52-20.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-14&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;505909&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/a1225df6fad417ca0bf2cee78878721.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/a1225df6fad417ca0bf2cee78878721.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:01:05.279828 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:01:05.302237 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:01:05.302250 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:01:05.302258 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:01:05.302262 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:01:05.302265 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:01:05.302268 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:01:05.302271 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:01:05.302274 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:01:05.302277 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:01:05.302290 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:05.707729 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:06.154403 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg
+INFO  [2016-01-27 18:01:06.154435 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="addcd4f4c8e2202d543f2c2954aab26" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-14-08-50-18.jpeg</dc:title>
+      <dc:date>2015-09-14</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="220457" resolution="720x1280">http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/addcd4f4c8e2202d543f2c2954aab26.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:06.154462 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:01:06.154472 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg'
+INFO  [2016-01-27 18:01:06.154597 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;addcd4f4c8e2202d543f2c2954aab26&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-14-08-50-18.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-14&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;220457&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/addcd4f4c8e2202d543f2c2954aab26.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:06.207951 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:06.739364 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:01:06.739391 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:01:06.739401 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:01:06.739409 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg
+INFO  [2016-01-27 18:01:06.739418 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="addcd4f4c8e2202d543f2c2954aab26" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-14-08-50-18.jpeg</dc:title>
+      <dc:date>2015-09-14</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="220457" resolution="720x1280">http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/addcd4f4c8e2202d543f2c2954aab26.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:06.739551 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;addcd4f4c8e2202d543f2c2954aab26&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-14-08-50-18.jpeg&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-14&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;220457&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/addcd4f4c8e2202d543f2c2954aab26.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/addcd4f4c8e2202d543f2c2954aab26.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:01:06.815589 | gstreamer] about-to-finish cb: setting uri (null)
+INFO  [2016-01-27 18:01:06.852777 | gstreamer] play: End-of-stream
+INFO  [2016-01-27 18:01:06.852790 | transport] AVTransportURI: 
+INFO  [2016-01-27 18:01:06.852798 | transport] AVTransportURIMetaData: 
+INFO  [2016-01-27 18:01:06.852802 | transport] NumberOfTracks: 0
+INFO  [2016-01-27 18:01:06.852805 | transport] CurrentTrack: 0
+INFO  [2016-01-27 18:01:06.852808 | transport] CurrentTrackURI: 
+INFO  [2016-01-27 18:01:06.852811 | transport] CurrentTrackMetaData: 
+INFO  [2016-01-27 18:01:06.852814 | transport] TransportState: STOPPED
+INFO  [2016-01-27 18:01:06.852816 | transport] CurrentTransportActions: PLAY
+INFO  [2016-01-27 18:01:06.852829 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val=""></AVTransportURI>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<NumberOfTracks val="0"></NumberOfTracks>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:07.239822 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:07.678843 | transport] AVTransportURI: http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg
+INFO  [2016-01-27 18:01:07.678876 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="c7c6599f13259010b0e01aafc1c14" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-02-12-19-19</dc:title>
+      <dc:date>2015-09-2</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="133034" resolution="720x1280">http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/c7c6599f13259010b0e01aafc1c14.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:07.678895 | transport] NumberOfTracks: 1
+INFO  [2016-01-27 18:01:07.678914 | gstreamer] Set uri to 'http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg'
+INFO  [2016-01-27 18:01:07.679035 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;c7c6599f13259010b0e01aafc1c14&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-02-12-19-19&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-2&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;133034&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/c7c6599f13259010b0e01aafc1c14.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+ERROR [2016-01-27 18:01:07.740062 | gstreamer] Failed to get track duration.
+INFO  [2016-01-27 18:01:08.275052 | transport] TransportState: PLAYING
+INFO  [2016-01-27 18:01:08.275094 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2016-01-27 18:01:08.275113 | transport] CurrentTrack: 1
+INFO  [2016-01-27 18:01:08.275126 | transport] CurrentTrackURI: http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg
+INFO  [2016-01-27 18:01:08.275142 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/">
+   <item id="c7c6599f13259010b0e01aafc1c14" parentID="34" restricted="1">
+      <upnp:storageMedium>UNKNOWN</upnp:storageMedium>
+      <upnp:writeStatus>UNKNOWN</upnp:writeStatus>
+      <dc:title>Screenshot_2015-09-02-12-19-19</dc:title>
+      <dc:date>2015-09-2</dc:date>
+      <upnp:class>object.item.imageItem.photo</upnp:class>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000" size="133034" resolution="720x1280">http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg</res>
+      <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000">http://192.168.10.56:38520/ExportContent/tn/c7c6599f13259010b0e01aafc1c14.jpeg</res>
+   </item>
+</DIDL-Lite>
+INFO  [2016-01-27 18:01:08.275389 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;
+   &lt;item id=&quot;c7c6599f13259010b0e01aafc1c14&quot; parentID=&quot;34&quot; restricted=&quot;1&quot;&gt;
+      &lt;upnp:storageMedium&gt;UNKNOWN&lt;/upnp:storageMedium&gt;
+      &lt;upnp:writeStatus&gt;UNKNOWN&lt;/upnp:writeStatus&gt;
+      &lt;dc:title&gt;Screenshot_2015-09-02-12-19-19&lt;/dc:title&gt;
+      &lt;dc:date&gt;2015-09-2&lt;/dc:date&gt;
+      &lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot; size=&quot;133034&quot; resolution=&quot;720x1280&quot;&gt;http://192.168.10.56:38520/ExportContent/c7c6599f13259010b0e01aafc1c14.jpeg&lt;/res&gt;
+      &lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=00d00000000000000000000000000000&quot;&gt;http://192.168.10.56:38520/ExportContent/tn/c7c6599f13259010b0e01aafc1c14.jpeg&lt;/res&gt;
+   &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2016-01-27 18:01:08.347196 | gstreamer] about-to-finish cb: setting uri (null)
